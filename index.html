@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starlight Game Studio</title>
+    <style>
+        *{
+            transition:.1s;
+            border-radius: 15px;
+        }
+    
+    a{
+        text-decoration:none;
+        
+    }
+
+    body{
+      font-family: Arial, sans-serif;
+      margin:0;
+      padding:0;
+      background-image: url(files/bg.png);
+      background-origin: padding-box;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    
+    header{
+      background-color:#0000001a;
+      color:#000000;
+      position: relative;
+      display: flex;
+      height:75px;
+      width:100%;
+      top:0;
+      box-shadow:7px7px10px10px rgba(0,0,0,.1);
+      backdrop-filter: blur(20px);
+    }
+
+    .ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li a {
+        color:#fff;
+    }
+
+    .headtest{
+        margin: auto 20px;
+        color:#fff;
+        text-decoration:none;
+        font-size:20px;
+        float: left;
+        justify-content: center;
+    }
+
+    .headtest:hover{
+        color:#ffffffd8;
+        font-size:20px;
+        float: left;
+        justify-content: center;
+    }
+    
+    main{
+      width:97.5%;
+      margin:2% auto;
+      padding:20px;
+      background-color:#00000010;
+      box-shadow:0010px rgba(0,0,0,0.5);
+      color:#fff;
+      box-sizing: border-box;
+      border-radius: 15px;
+      backdrop-filter: blur(15px);
+    }
+        
+    ul{
+      list-style: none;
+      margin:0;
+      padding:0;
+    }
+    
+    li{
+      margin-bottom:10px;
+    }
+        
+    footer{
+      background-color:#0000001a;
+      color:#fff;
+      padding:20px;
+      text-align: center;
+      margin-top: auto;
+      backdrop-filter: blur(20px);
+      width: 100%;
+      bottom: 0; 
+    }
+    
+    .main1{
+        width:98%;
+        margin: 20px 1%; 
+        padding:20px;
+        background-color:#00000002;
+        box-shadow:0010px rgba(0,0,0,0.5);
+        box-sizing: border-box;
+        border-radius: 15px;
+        backdrop-filter: blur(15px);
+        #float: left;
+    }
+    
+    .main2{
+        width:48%;
+        margin: 20px 1%; 
+        padding:20px;
+        background-color:#00000002;
+        box-shadow:0010px rgba(0,0,0,0.5);
+        box-sizing: border-box;
+        border-radius: 15px;
+        backdrop-filter: blur(15px);
+        float: left;
+    }
+
+    
+    .main3{
+        width:48%;
+        margin: 20px 1%; 
+        padding:20px;
+        background-color:#00000002;
+        box-shadow:0010px rgba(0,0,0,0.5);
+        box-sizing: border-box;
+        border-radius: 15px;
+        backdrop-filter: blur(15px);
+        float: left;
+    }
+
+    
+    .main4{
+        width:98%;
+        margin: 20px 1%; 
+        padding:20px;
+        background-color:#00000002;
+        box-shadow:0010px rgba(0,0,0,0.5);
+        box-sizing: border-box;
+        border-radius: 15px;
+        backdrop-filter: blur(15px);
+        float: left;
+    }
+
+    .clear{
+        clear: both;
+    }
+
+    .server{
+        margin: 14px 1%;
+    }
+    
+    .img{
+        height: 300px;
+    }
+
+    .id{
+        background-color: #0000001e;
+        border: 1px solid rgba(0,0,0,0);
+        margin: 5px 5px;
+        height: 25px;
+    }
+    
+
+    .email{
+        background-color: #0000001e;
+        margin:5px 23.5px;
+        border: 1px solid rgba(0,0,0,0);
+        height: 25px;
+    }
+
+    .btn{
+        height: 25px;
+        width: 50px;
+        background-color: #0000001e;
+        color: #fff;
+        border:1px solid rgba(0,0,0,0);
+    }
+    input:hover{
+        border:1px solid pink;
+    }
+
+    a:hover{
+        text-shadow:rgba(255, 255, 255, 0.5) 0 0 10px ;
+    }
+
+    a{
+        color: #fff;
+    }
+    @media screen and (max-width: 300px) {
+        main2{
+            width:98%;
+            margin: 20px 1%; 
+            padding:20px;
+            background-color:#00000002;
+            box-shadow:0010px rgba(0,0,0,0.5);
+            box-sizing: border-box;
+            border-radius: 15px;
+            backdrop-filter: blur(15px);
+            float: none;
+        }
+        main3{
+            width:98%;
+            margin: 20px 1%; 
+            padding:20px;
+            background-color:#00000002;
+            box-shadow:0010px rgba(0,0,0,0.5);
+            box-sizing: border-box;
+            border-radius: 15px;
+            backdrop-filter: blur(15px);
+            float: none;
+        }
+    }
+        
+    
+    
+    </style>
+</head>
+<body>
+    <header>
+        <ul class="ul">
+            <li class="headtest"><a href="#" >Starlight Game Studio</a></li>
+            <li class="headtest"><a href="https://remcbbs.com" target="_blank">REMCBBS</a></li>
+            <li class="headtest"><a href="https://Minecraft.net" target="_blank">minecraft.net</a></li>
+            <li class="headtest"><a href="https://klpbbs.com"  target="_blank">KLPBBS</a></li>
+            <li class="headtest"><a href="https://minebbs.com"  target="_blank">Minebbs</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="main1">
+            <h2>关于我们</h2>
+             <p>Starlight Game Studio，组建与2022年7月23日</p>
+            <h2 id="services">赞助</h2>
+             <p>由于服务器，网站，软件等产品都属于公益, 我们没有任何盈利<br>
+
+                如果您有能力，可以<a href="https://afdian.net/a/hl754" target="_blank">为我们买一包辣条</a> </p>
+            <h2 id="contact">反馈</h2>
+             <p>电子邮件: <a href="mailto:starlightvgamevstudio@outlook.com" target="_blank">starlightvgamevstudio@outlook.com</a>  </p>
+             <p>QQ:2067268150</p>
+        </div>
+        <h1 class="server">MC 服务器</h1>
+        <div class="main2">
+            
+            <h2>梦之国度</h2>
+            <img src="./files/mzgd-1.jpg" class="img"><br>
+              <p>有效状态长期开放，</p>
+              <p>支持版本1.20.1，</p>
+              <p>游戏模式生存</p>
+              <p>网络类型双线/多线</p>
+              <p>正版验证：无</p>
+              <p>最大在线人数500</p>
+              <p>QQ群: 716121482</p>
+              <p>服务器IP/域名：进群了解</p>
+              <p>我们的玩家群：716121482</p>
+              <p>本服务器是生电类型服务器</p>  
+              </div>
+              <div class="main3"> 
+              <h2>空灵之境</h2>
+              <img src="./files/klzj-1.jpg" class="img"><br>
+              <p>有效状态长期开放，</p>
+              <p>支持版本1.20.1，</p>
+              <p>游戏模式生存</p>
+              <p>网络类型双线/多线</p>
+              <p>正版验证：无</p>
+              <p>最大在线人数500</p>
+              <p>QQ群: 716121482</p>
+              <p>服务器IP/域名：进群了解</p>
+              <p>我们的玩家群：903320308</p>
+              <p>本服务器是空岛类型服务器</p>
+            </div>
+
+            <div class="main4">
+                <h3>“梦之国度-空灵之境”启动器</h3>
+                <img src="./files/app1-1.jpg" alt="图片描述"><br>
+                <p>“梦之国度-空灵之境”启动器是，梦之国度服务器和空灵之境服务器的专用手机版启</p>
+                <p>动器。此启动器已经提前装好了游戏需要的所有MOD，点击开始游戏就可以进行游玩。</p>
+                <a href="https://pan.baidu.com/s/1WBlMXlPXZxVcJRrBbIFqfw?pwd=s4rg">链接：https://pan.baidu.com/s/1WBlMXlPXZxVcJRrBbIFqfw?pwd=s4rg 
+           提取码：s4rg </a>
+            </div>
+            
+
+
+            <div class="clear"></div>
+
+    </main>
+    <footer>
+        <h2>mzgdw.top by 玖弦</h2>
+    </footer>
+</body>
+</html>
